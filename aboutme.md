@@ -1,16 +1,28 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About
+thumbnail-img: assets/img/thumbnail.png
+share-title: "Story Generator: About"
+share-description: "General information about the Story Generator and its author"
 ---
+## Author
 
-My name is Inigo Montoya. I have the following qualities:
+My name is [Denis Cera](https://www.linkedin.com/in/denis-cera-497872108/). I am Software Engineer with a passion for [Blender](https://www.blender.org/), computer vision, and animation. Currently, I work as a contractor at [Move.ai](http://move.ai) and have developed various [Blender add-ons](https://blendermarket.com/creators/denis-chera) related to rigging and animation.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+## Idea
 
-What else do you need?
+OpenAI's ChatGPT blew my mind and I got an idea about using it as a tool for world generation. But static worlds are boring! So I decided to add NPCs (non-playable characters) to see if they can interact in the evolving worlds and achieve their goals... It turns out that yes, they can! And it's super interesting to observe how they do that and what happens to them. That's how the Story Generator was born.
 
-### My story
+## Features
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- **World Creation:** Create custom worlds from any(!) description you can imagine. Whether it's a medieval dark fantasy realm or a cyber-punk sci-fi setting with cyber-ponies (yes! Cyber-ponies!), the possibilities are endless
+  
+- **Dynamic NPCs:** Each NPC within the generated world has its own unique name, attributes, global goal and current state. These characters are not mere placeholders but dynamic entities that react and adapt to the changing world around them
+  
+- **Evolving Worlds:** With the initial description provided, the generated worlds undergo changes over time based on a specified interval. Immerse yourself in the excitement of observing a dynamic world that continuously evolves and transforms
+  
+- **Changing World Characteristics:** Various aspects of the world, such as its temperature and environment, dynamically shift and transform. These changes trigger a chain of events that prompt the NPCs to respond and adapt, creating a dynamic and realistic narrative
+
+Ultimately, the world's and NPC's conditions converge to create an exceptional story.
+
+[Try it for free]({% link index.html %}) or [buy it]({% link pricing.md %}) as a standalone app. The latter option includes the complete source code and requires a one-time payment only (no subscriptions!). Story Generator is built entirely using [Shiny](https://shiny.posit.co/py/) so if you want to know how to build web apps with Shiny alongside ChatGPT in an asynchronous manner that's a great source of knowledge! Additionally, you can employ Story Generator in your own game by customizing the code to suit your requirements.

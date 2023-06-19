@@ -1,5 +1,37 @@
 ---
 layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: Story Generator
+subtitle: "Story Generator is a groundbreaking app that brings your imagination to life.
+Input your world description, and watch as an entire universe unfolds before your eyes.
+With ChatGPT as the backbone, witness the progression of your world and observe lifelike NPCs
+as they navigate their intricacies. Experience the joy of creation in real-time, all within the palm of your hand."
+thumbnail-img: assets/img/thumbnail.png
+share-title: "Story Generator"
+share-description: "Input your world description, and watch as an entire universe unfolds before your eyes. With ChatGPT as the backbone, witness the progression of your world and observe lifelike NPCs."
 ---
+
+<div class="page-subheading" style="font-size: 1.3rem; line-height: 1.1; text-align: center;">
+    <a href="#appIframe">Try it for free ⇩</a> or <a href="{% link pricing.md %}">buy↗</a> the standalone app (+source code) through a one time payment
+</div>
+
+
+<script src="/assets/js/iframeResizer.min.js"></script>
+
+<style>
+    .responsive-wrap iframe{ max-width: 100%;}
+    iframe {
+        width: 1px;
+        min-width: 100%;
+    }
+</style>
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+    <iframe id="appIframe" src="https://story-generator.shinyapps.io/story-generator/" frameborder="0"></iframe>
+<!-- Google embed ends -->
+</div>
+
+<script>
+    // iFrameResize({ log: true, heightCalculationMethod: 'taggedElement'}, '#appIframe')
+    iFrameResize({ log: true}, '#appIframe')
+    // iFrameResize({ log: true, heightCalculationMethod: 'taggedElement'}, '#appIframe')
+</script>
