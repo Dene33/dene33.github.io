@@ -40,7 +40,7 @@ share-description: "Use for free or buy with the one time payment"
         <div class="plan-name">Supporter</div>
         <div class="plan-price">
           <div class="dollarsign">$</div>
-          <div class="pricenum">35</div>
+          <div class="pricenum">9</div>
           <div class="permonth"></div>
         </div>
         <hr>
