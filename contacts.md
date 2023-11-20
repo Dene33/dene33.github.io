@@ -8,6 +8,10 @@ share-description: "Have a question, need assistance, or want to share your thou
 
 ---
 
+## [Discord](https://discord.gg/uaej8cDCQx)
+
+## [GitHub](https://github.com/Dene33/world-gpt)
+
 <div style="font-size: 2.2rem; line-height: 1.1; text-align: center;">
     <a href="mailto:contact@story-generator.ai">contact@story-generator.ai</a>
 </div>

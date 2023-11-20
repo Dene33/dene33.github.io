@@ -15,8 +15,9 @@ share-description: "Everything you want to know about the Story Generator"
 
 ## 2. Is it free?
 
-- There is a free version of the Story Generator for users to experience its capabilities
-- And the standalone app which you can buy with a one-time payment. You get everything, including source code and the future updates. Visit the [pricing page]({% link pricing.md %}) for more details on the available options
+- There is a free version of the Story Generator for users to experience its capabilities on the [main page](https://www.story-generator.ai/) of this website
+- You can get the [source code](https://github.com/Dene33/world-gpt) and the prebuilt [standalone app for your platform](https://github.com/Dene33/world-gpt/releases)
+- You can also buy the source code and the prebuilt standalone apps with a one-time payment. You get everything, including source code and the future updates. Visit the [pricing page]({% link pricing.md %}) for more details on the available options
 
 ## 3. What are the differences between the free and paid versions?
 
@@ -43,7 +44,7 @@ The Story Generator leverages the power of OpenAI's [ChatGPT](https://chat.opena
 
 ## 8. Where can I submit feature requests/bug reports?
 
-If you encounter any issues, have suggestions for new features, or want to report a bug, please [contact me]({% link contacts.md %})
+If you encounter any issues, have suggestions for new features, or want to report a bug, please [contact me]({% link contacts.md %}), open a [GitHub issue](https://github.com/Dene33/world-gpt/issues) or send a [message to Discord](https://discord.gg/uaej8cDCQx)
 
 ## 9. Do you provide API?
 
@@ -59,4 +60,4 @@ Yes, I am open to collaboration opportunities. If you have an exciting idea or p
 
 ## 12. Why do you use the one-time payment model? Will I receive future updates?
 
-Yes, you will receive future updates. Subscription-based model doesn't fit this project and I don't quite like it in general. So pay [only once]({% link pricing.md %}) and get everything, including the source code and the future updates.
+Yes, you will receive future updates. Subscription-based model doesn't fit this project and I don't quite like it in general. So pay [only once]({% link pricing.md %}) and get everything, including the source code and the future updates. Source code and prebuilt libraries are also [available on GitHub.](https://github.com/Dene33/world-gpt)
